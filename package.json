@@ -1,0 +1,15 @@
+{
+  "name": "colorful-interface",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thiago099/colorful-interface.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thiago099/colorful-interface/issues"
+  },
+  "homepage": "https://github.com/Thiago099/colorful-interface#readme"
+}
