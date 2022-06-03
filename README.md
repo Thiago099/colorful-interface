@@ -2,7 +2,7 @@
 
 
 ```html
-<div :class="`col-3 pastel-red`" key="color" >
+<div class="pastel-red">
   <label for="a" class="input-label">Label:</label>
   <div class="input-container">
     <input type="text" class="input" />
@@ -13,17 +13,15 @@
 ![image](https://user-images.githubusercontent.com/66787043/171952151-c6aed7e4-3b83-4c28-a66e-3af0b25c8fd4.png)
 
 ```html
-<div :class="`col-3 pastel-blue`">
-  <div class="input-container">
-    <input type="submit" class="button button-selected" value="Yes">
-    <input type="submit" class="button" value="No">
-    <input type="submit" class="button" value="Maybe">
-  </div>
+<div class="input-container pastel-blue">
+  <input type="submit" class="button button-selected" value="Yes">
+  <input type="submit" class="button" value="No">
+  <input type="submit" class="button" value="Maybe">
 </div>
 ```
 ![image](https://user-images.githubusercontent.com/66787043/171952428-0f8013fb-8217-4b6d-bb40-c27b9d4d0282.png)
 ```html
-<table :class="`col-3 table pastel-black`">
+<table class="table pastel-black">
         <tr>
           <th>Company</th>
           <th>Contact</th>
@@ -63,14 +61,14 @@
 ```
 ![image](https://user-images.githubusercontent.com/66787043/171952521-6ae97088-d003-40d2-a115-257d1995cc54.png)
 ```html
-<div :class="`col-3 card pastel-orange`">
+<div class="card pastel-orange">
   <div class="card-header">Title</div>
   <div class="card-body">Content</div>
 </div>
 ```
 ![image](https://user-images.githubusercontent.com/66787043/171952722-040eaa48-b4d3-4028-8220-4e3a751a3f3b.png)
 ```html
-<div :class="`col-3 nav pastel-purple`">
+<div class="`nav pastel-purple">
   <div class="nav-item nav-selected">Home</div>
   <div class="nav-item">About</div>
   <div class="nav-item">Contact</div>
@@ -78,7 +76,7 @@
 ```
 ![image](https://user-images.githubusercontent.com/66787043/171952861-288bfb62-e68a-4ba3-b712-caa986b1b549.png)
 ```html
-<div  :class="`col-3 nav vertical-nav pastel-pink`" v-for="color in colors" :key="color">
+<div  class="nav vertical-nav pastel-pink">
     <div class="nav-item nav-selected">
       Home
     </div>
