@@ -1,0 +1,26 @@
+.card{
+    background-color: var(--bright);
+    border-radius: 13px;
+    border: 2px solid var(--dark);
+    color: var(--very-dark);
+    animation: pop-in 0.2s ease-in-out;
+}
+.card-header{
+    background-color: var(--medium);
+    height: 50px;
+    border-radius: 13px 13px 0px 0px;
+    border-bottom: 2px solid var(--dark);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:15pt;
+    font-weight: bold;
+
+}
+.card-body{
+    padding: 15px;
+    border-radius: 0px 0px 13px 13px;
+    box-shadow: inset 0 0 5px var(--medium);
+
+}

@@ -1,0 +1,85 @@
+/* LABEL */
+
+.input-label{
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--very-dark);
+    animation: pop-in 0.2s ease-in-out;
+
+}
+/* CONTAINER */
+.input-container{
+    display: inline-flex;
+    flex-direction: row;
+    align-content: stretch;
+    width: 100%;
+    animation: pop-in 0.2s ease-in-out;
+
+}
+
+.input-container *{
+    border-radius: 0;
+}
+
+.input-container *:not(:first-child){
+    border-left: none;
+}
+.input-container *:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+.input-container *:last-child{
+    border-radius: 0 5px 5px 0; 
+}
+
+.input-container *:only-child{
+    border-radius: 5px;
+}
+
+/* INPUTS */
+
+.button, .input{
+    flex: 1;
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color:var(--bright) ;
+    border:2pt solid var(--dark);
+    font-size: 13pt;
+    text-align : center;
+    outline-style: none;
+}
+.input{
+    min-width: 0px;
+    color: var(--very-dark);
+    caret-color: var(--very-dark);
+    box-shadow: inset 0 0 5px var(--medium);
+}
+.button{
+    height: 40px;
+    flex:1;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    color:var(--very-dark);
+    transition: all 0.2s ease-in-out;
+}
+.button-fit{
+    flex:0;
+}
+.button-selected{
+    background-color: var(--dark);
+}
+.button:not(.button-selected){
+    box-shadow: inset 0 0 5px var(--medium);
+
+}
+.button:hover:not(.button-selected){
+    background-color:var(--medium);
+    font-size: 16pt;
+}
+
+.button:hover:not(.button-fit,.button-selected){
+    flex:1.2;
+}
+

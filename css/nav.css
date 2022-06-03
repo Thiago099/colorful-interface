@@ -1,0 +1,40 @@
+.nav{
+    border-radius: 5px;
+    color: var(--very-dark);
+    animation: pop-in 0.2s ease-in-out;
+}
+.nav:not(.vertical-nav) .nav-item{
+    padding: 10px 20px 10px 20px;
+    font-size: 15pt;
+    display: inline-block;
+    border-radius: 5px;
+    margin:8px;
+    transition: all 0.2s ease-in-out;
+}
+.vertical-nav .nav-item{
+    padding: 10px 20px 10px 20px;
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin:10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-item:not(.nav-selected)
+{
+    cursor: pointer;    
+}
+.nav-item:hover:not(.nav-selected){
+    background-color: var(--medium);
+    transform: scale(1.1);
+
+
+
+}
+.nav-selected{
+    background-color: var(--dark);
+    font-size: 15pt;
+    
+}
