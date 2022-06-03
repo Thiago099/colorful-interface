@@ -62,7 +62,41 @@
       </table>
 ```
 ![image](https://user-images.githubusercontent.com/66787043/171952521-6ae97088-d003-40d2-a115-257d1995cc54.png)
+```html
+<div :class="`col-3 card pastel-orange`">
+  <div class="card-header">Title</div>
+  <div class="card-body">Content</div>
+</div>
+```
 ![image](https://user-images.githubusercontent.com/66787043/171952722-040eaa48-b4d3-4028-8220-4e3a751a3f3b.png)
-
-
+```html
+<div :class="`col-3 nav pastel-purple`">
+  <div class="nav-item nav-selected">Home</div>
+  <div class="nav-item">About</div>
+  <div class="nav-item">Contact</div>
+</div>
+```
+![image](https://user-images.githubusercontent.com/66787043/171952861-288bfb62-e68a-4ba3-b712-caa986b1b549.png)
+```html
+<div  :class="`col-3 nav vertical-nav pastel-pink`" v-for="color in colors" :key="color">
+    <div class="nav-item nav-selected">
+      Home
+    </div>
+    <div class="nav-item">
+      About
+    </div>
+    <div class="nav-item">
+      Contact
+    </div>
+</div>
+```
+![image](https://user-images.githubusercontent.com/66787043/171953015-b1bf05cf-5e43-4b29-bb17-393525357cba.png)
+```html
+<div class="row">
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+</div>
+```
 ![image](https://user-images.githubusercontent.com/66787043/171952179-a3e878d0-223e-4398-85f1-3ac10b27e61a.png)
