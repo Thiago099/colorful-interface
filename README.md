@@ -87,6 +87,15 @@
     </div>
 </div>
 ```
+![image](https://user-images.githubusercontent.com/66787043/171953015-b1bf05cf-5e43-4b29-bb17-393525357cba.png)
+```html
+<div class="row">
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+</div>
+```
 ## pastel-black
 ![image](https://user-images.githubusercontent.com/66787043/171999155-6be384dd-8583-4ec2-9771-e58b04283ac1.png)
 ## pastel-red
@@ -104,13 +113,5 @@
 ## pastel-purple
 ![image](https://user-images.githubusercontent.com/66787043/171999218-f02a4429-a098-4a20-90b5-58728cba3c67.png)
 
-![image](https://user-images.githubusercontent.com/66787043/171953015-b1bf05cf-5e43-4b29-bb17-393525357cba.png)
-```html
-<div class="row">
-  <div class="col-3"></div>
-  <div class="col-3"></div>
-  <div class="col-3"></div>
-  <div class="col-3"></div>
-</div>
-```
+
 ![image](https://user-images.githubusercontent.com/66787043/171952179-a3e878d0-223e-4398-85f1-3ac10b27e61a.png)
