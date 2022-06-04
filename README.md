@@ -75,7 +75,7 @@
 ```
 ![image](https://user-images.githubusercontent.com/66787043/171952861-288bfb62-e68a-4ba3-b712-caa986b1b549.png)
 ```html
-<div  class="nav vertical-nav pastel-pink">
+<div  class="nav nav-vertical pastel-pink">
     <div class="nav-item nav-item-selected">
       Home
     </div>
