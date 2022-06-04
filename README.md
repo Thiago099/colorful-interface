@@ -99,7 +99,7 @@
 ## pastel-green
 ![image](https://user-images.githubusercontent.com/66787043/171999245-d44991aa-af87-469f-8da0-647145407425.png)
 ## patel-cyan
-![image](https://user-images.githubusercontent.com/66787043/171999196-1d602f5f-25a2-42f6-af36-c2fab0b5715f.png)
+![image](https://user-images.githubusercontent.com/66787043/171999256-d2638722-c884-460f-a39f-22e5ace1d43f.png)
 ## patel-blue
 ![image](https://user-images.githubusercontent.com/66787043/171999201-662b9dcb-30f1-4e5c-a482-54c2f1407fec.png)
 ## pastel-purple
