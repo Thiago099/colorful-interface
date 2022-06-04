@@ -112,6 +112,12 @@
 ![image](https://user-images.githubusercontent.com/66787043/171999201-662b9dcb-30f1-4e5c-a482-54c2f1407fec.png)
 ## pastel-purple
 ![image](https://user-images.githubusercontent.com/66787043/171999218-f02a4429-a098-4a20-90b5-58728cba3c67.png)
-
-
+```html
+<div class="row">
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+</div>
+```
 ![image](https://user-images.githubusercontent.com/66787043/171952179-a3e878d0-223e-4398-85f1-3ac10b27e61a.png)
