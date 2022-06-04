@@ -1,6 +1,5 @@
 # colorful-interface
 
-
 ```html
 <div class="pastel-red">
   <label for="a" class="input-label">Label:</label>
@@ -89,6 +88,30 @@
 </div>
 ```
 ![image](https://user-images.githubusercontent.com/66787043/171953015-b1bf05cf-5e43-4b29-bb17-393525357cba.png)
+```html
+<div class="row">
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+  <div class="col-3"></div>
+</div>
+```
+## pastel-black
+![image](https://user-images.githubusercontent.com/66787043/171999155-6be384dd-8583-4ec2-9771-e58b04283ac1.png)
+## pastel-red
+![image](https://user-images.githubusercontent.com/66787043/171999166-05304858-88ff-4832-be2c-dc53072c5641.png)
+## pastel-orange
+![image](https://user-images.githubusercontent.com/66787043/171999175-d1d8c7be-2640-4d68-ae74-ccb30f5272a1.png)
+## pastel-pink
+![image](https://user-images.githubusercontent.com/66787043/171999188-3164338c-eca0-4e5a-b7be-a56778093223.png)
+## pastel-green
+![image](https://user-images.githubusercontent.com/66787043/171999245-d44991aa-af87-469f-8da0-647145407425.png)
+## patel-cyan
+![image](https://user-images.githubusercontent.com/66787043/171999256-d2638722-c884-460f-a39f-22e5ace1d43f.png)
+## patel-blue
+![image](https://user-images.githubusercontent.com/66787043/171999201-662b9dcb-30f1-4e5c-a482-54c2f1407fec.png)
+## pastel-purple
+![image](https://user-images.githubusercontent.com/66787043/171999218-f02a4429-a098-4a20-90b5-58728cba3c67.png)
 ```html
 <div class="row">
   <div class="col-3"></div>
