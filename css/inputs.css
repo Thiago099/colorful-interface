@@ -8,7 +8,7 @@
 
 }
 /* CONTAINER */
-.input-container{
+.group{
     display: inline-flex;
     flex-direction: row;
     align-content: stretch;
@@ -17,22 +17,22 @@
 
 }
 
-.input-container *{
+.group *{
     border-radius: 0;
 }
 
-.input-container *:not(:first-child){
+.group *:not(:first-child){
     border-left: none;
 }
-.input-container *:first-child{
+.group *:first-child{
     border-radius: 5px 0 0 5px;
 }
 
-.input-container *:last-child{
+.group *:last-child{
     border-radius: 0 5px 5px 0; 
 }
 
-.input-container *:only-child{
+.group *:only-child{
     border-radius: 5px;
 }
 

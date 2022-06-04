@@ -4,7 +4,7 @@
 ```html
 <div class="pastel-red">
   <label for="a" class="input-label">Label:</label>
-  <div class="input-container">
+  <div class="group">
     <input type="text" class="input" />
     <input type="submit" class="button button-fit">
   </div>
@@ -13,7 +13,7 @@
 ![image](https://user-images.githubusercontent.com/66787043/171952151-c6aed7e4-3b83-4c28-a66e-3af0b25c8fd4.png)
 
 ```html
-<div class="input-container pastel-blue">
+<div class="group pastel-blue">
   <input type="submit" class="button button-selected" value="Yes">
   <input type="submit" class="button" value="No">
   <input type="submit" class="button" value="Maybe">
@@ -69,7 +69,7 @@
 ![image](https://user-images.githubusercontent.com/66787043/171952722-040eaa48-b4d3-4028-8220-4e3a751a3f3b.png)
 ```html
 <div class="`nav pastel-purple">
-  <div class="nav-item nav-selected">Home</div>
+  <div class="nav-item nav-item-selected">Home</div>
   <div class="nav-item">About</div>
   <div class="nav-item">Contact</div>
 </div>
@@ -77,7 +77,7 @@
 ![image](https://user-images.githubusercontent.com/66787043/171952861-288bfb62-e68a-4ba3-b712-caa986b1b549.png)
 ```html
 <div  class="nav vertical-nav pastel-pink">
-    <div class="nav-item nav-selected">
+    <div class="nav-item nav-item-selected">
       Home
     </div>
     <div class="nav-item">

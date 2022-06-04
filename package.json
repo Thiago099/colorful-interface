@@ -1,7 +1,8 @@
 {
   "name": "colorful-interface",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
+  "main": "main.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Thiago099/colorful-interface.git"

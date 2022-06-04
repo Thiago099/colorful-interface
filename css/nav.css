@@ -22,18 +22,15 @@
     transition: all 0.2s ease-in-out;
 }
 
-.nav-item:not(.nav-selected)
+.nav-item:not(.nav-item-selected)
 {
     cursor: pointer;    
 }
-.nav-item:hover:not(.nav-selected){
+.nav-item:hover:not(.nav-item-selected){
     background-color: var(--medium);
     transform: scale(1.1);
-
-
-
 }
-.nav-selected{
+.nav-item-selected{
     background-color: var(--dark);
     font-size: 15pt;
     
