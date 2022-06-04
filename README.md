@@ -1,6 +1,7 @@
 # colorful-interface
 
-
+<details>
+  <summary>UI itens</summary>
 ```html
 <div class="pastel-red">
   <label for="a" class="input-label">Label:</label>
@@ -88,6 +89,7 @@
     </div>
 </div>
 ```
+  </details>
 ## pastel-black
 ![image](https://user-images.githubusercontent.com/66787043/171999155-6be384dd-8583-4ec2-9771-e58b04283ac1.png)
 ## pastel-red
