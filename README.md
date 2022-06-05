@@ -1,5 +1,10 @@
 # colorful-interface
 
+This is a ui toolkit with styles for most common html elements
+
+# update
+some class name have been changed, this documentation referees to the newest version
+
 ```html
 <div class="pastel-red">
   <label for="a" class="label">Label:</label>
