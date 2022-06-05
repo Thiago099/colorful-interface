@@ -1,6 +1,6 @@
 {
   "name": "colorful-interface",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "",
   "main": "main.css",
   "repository": {
@@ -12,5 +12,14 @@
   "bugs": {
     "url": "https://github.com/Thiago099/colorful-interface/issues"
   },
-  "homepage": "https://github.com/Thiago099/colorful-interface#readme"
+  "homepage": "https://github.com/Thiago099/colorful-interface#readme",
+  "keywords": [
+    "css",
+    "ui toolkit",
+    "front-end",
+    "form",
+    "table",
+    "menu",
+    "card"
+  ]
 }
