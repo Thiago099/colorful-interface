@@ -95,14 +95,7 @@ some class name have been changed, this documentation referees to the newest ver
 </div>
 ```
 ![image](https://user-images.githubusercontent.com/66787043/171953015-b1bf05cf-5e43-4b29-bb17-393525357cba.png)
-```html
-<div class="row">
-  <div class="col-3"></div>
-  <div class="col-3"></div>
-  <div class="col-3"></div>
-  <div class="col-3"></div>
-</div>
-```
+# Colors
 ## pastel-black
 ![image](https://user-images.githubusercontent.com/66787043/171999155-6be384dd-8583-4ec2-9771-e58b04283ac1.png)
 ## pastel-red
