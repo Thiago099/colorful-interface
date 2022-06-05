@@ -2,7 +2,7 @@
 
 ```html
 <div class="pastel-red">
-  <label for="a" class="input-label">Label:</label>
+  <label for="a" class="label">Label:</label>
   <div class="group">
     <input type="text" class="input" />
     <input type="submit" class="button button-fit">
