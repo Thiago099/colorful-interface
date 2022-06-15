@@ -4,7 +4,7 @@
     display: block;
     margin-bottom: 0.5rem;
     color: var(--very-dark);
-    animation: pop-in 0.2s ease-in-out;
+    animation: pop-in 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 }
 /* CONTAINER */
@@ -13,7 +13,7 @@
     flex-direction: row;
     align-content: stretch;
     width: 100%;
-    animation: pop-in 0.2s ease-in-out;
+    animation: pop-in 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 }
 
@@ -61,7 +61,7 @@
     padding-left: 20px;
     padding-right: 20px;
     color:var(--very-dark);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .button-fit{
     flex:0;
