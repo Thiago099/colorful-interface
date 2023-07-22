@@ -1,0 +1,19 @@
+
+.screen-noise{
+    left: 0;
+    top:0;
+    position: absolute;
+    filter: url("data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxmaWx0ZXIgaWQ9Im5vaXNlRmlsdGVyIj4KICAgIDxmZVR1cmJ1bGVuY2UgCiAgICAgIHR5cGU9ImZyYWN0YWxOb2lzZSIgCiAgICAgIGJhc2VGcmVxdWVuY3k9IjAuNiIgCiAgICAgIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz4KICA8L2ZpbHRlcj4KPC9zdmc+#noiseFilter");
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.8;
+  }
+
+  .bright .screen-noise{
+    mix-blend-mode: screen;
+  }
+  .dark .screen-noise{
+    mix-blend-mode: multiply;
+  }
